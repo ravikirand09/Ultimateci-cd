@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages{
         stage("Git checkout"){
-            step{
+            steps{
                 git 'https://github.com/ravikirand09/Ultimateci-cd.git'
             }
 
